@@ -1648,6 +1648,7 @@ test_pass_join_comment_indents_1:
     select * from a
     left join b
         -- comment
+        -- comment
         on (a.x = b.x)
 test_pass_join_comment_indents_2:
   # https://github.com/sqlfluff/sqlfluff/issues/4291
